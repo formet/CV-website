@@ -1,0 +1,132 @@
+
+
+
+body{
+	
+	background-color: #eee;
+}
+
+section.ports {
+	
+	position: absolute;
+	
+	top:10vh;
+	left: 10vw;
+	
+		margin:0px;
+	padding: 0;
+	
+	width: 90vw;
+	height:auto;
+	
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	
+	
+	background-color: #eee;
+}
+
+
+section.ports div.intro_port{
+	
+	
+	
+	padding:0;
+
+	width:100%;
+	height:auto;
+	background-color: #eee;
+	
+	
+	
+}
+
+
+section.ports div.intro_port p{
+	
+	margin:10px;
+	font-family: 'Cutive Mono', monospace;
+	
+}
+
+section.ports div.paper_title {
+
+
+	background-color: #eee;
+	color: #444;
+
+	padding: 18px 0;
+	width: 90vw;
+
+	text-align: left;
+	position:relative;
+	
+}
+section.ports div.paper_title p{
+
+	text-transform: capitalize;
+		font-family: 'Cutive Mono', monospace;
+	font-weight:700;
+	font-size:1.4em;
+	background-color: #eee;
+	color: #444;
+
+	padding: 0 50px ;
+	margin:0;
+
+	text-align: center;
+	position:relative;
+	
+}
+
+.disso_writing {
+	
+	text-transform: capitalize;
+		font-family: 'Cutive Mono', monospace;
+	font-weight:700;
+	font-size:1.4em;
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px 18px 18px 50px;
+	width: 100%;
+
+	text-align: center;
+	border: none;
+	outline: none;
+	transition: all 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .disso_writing:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+	
+	width:90vw;
+ 	margin:0;
+	padding:0px;
+  background-color: rgba(0,0,0,0.15);
+  display: none;
+  overflow: hidden;
+}
+
+
+.panel p{
+	
+		line-height: 1.5;
+	
+	margin:10px 30px 10px 10px;
+	padding:5px;
+	text-align: left;
+	font-family: 'Cutive Mono', monospace;
+	
+	
+}
+

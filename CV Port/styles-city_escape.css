@@ -1,0 +1,175 @@
+
+body {
+	overflow-x:hidden;
+}
+
+
+header.title {
+	
+	position: absolute;
+	z-index: 6;
+
+}
+
+nav.list{
+	
+	position: fixed;
+	
+}
+
+
+
+
+
+
+
+section.ports {
+	
+	position: absolute;
+	
+	top:10vh;
+	left: 10vw;
+	
+	margin:0;
+	padding:0;
+	
+	width: 90vw;
+	height:auto;
+	
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+
+section.ports div.intro_port{
+	
+	position: reletive;
+	
+	
+	
+	
+	
+}
+
+
+section.ports div.intro_port p{
+	
+	
+	
+	
+}
+
+
+section.ports div.gallery {
+	margin:0;
+	padding:0;
+	
+	position:reletive;
+	top:0;
+	left: 0;
+	
+	width: 60vw;
+	height: auto;
+	
+		display:flex;
+	flex-wrap:wrap;
+	flex-direction: row;
+	align-items: flx-start;
+	justify-content: center;
+	
+}
+
+section.ports div.gallery img.gal{
+	
+	margin:20px;
+	padding:0;
+	
+	border: 1px solid black;
+	width: 200px;
+	height:200px;
+	object-fit:cover;
+	
+	opacity: 0.4;
+}
+
+
+section.ports div.gallery_click {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+span.close {
+	
+  position: absolute;
+  top: 0vh;
+  left: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+span.close:hover,
+span.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+span.close.next {
+	
+  position: absolute;
+  top: 50vh;
+  left: 90vw;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+span.close.prev {
+	
+  position: absolute;
+  top: 50vh;
+  left: 10vw;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+
+
+section.ports div.gallery img.gallery_img {
+	
+	background-color: white;
+	position: absolute;
+	top:45%;
+	left:50%;
+	transform:translate(-50%,-50%);
+  margin: auto;
+ display:block;
+  height: 80%;
+  max-width:80%;
+ 
+
+	
+	
+}
+
+
+

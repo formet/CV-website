@@ -1,0 +1,329 @@
+
+@keyframes fadein {
+	
+	0%{ opacity: 1;}
+	100%{ opacity: 0;}
+	
+	
+	
+}
+
+
+body {
+	overflow-x:hidden;
+}
+
+nav.list{
+	position:absolute;
+	padding:0 0 0 0;
+}
+
+nav.list ul {
+	position:relative;
+}
+
+
+nav.list.second ul{
+	
+	margin: 0 16px 0 0;
+	
+}
+nav.list.second li:hover{
+	
+	cursor: pointer;
+	
+	background-color: rgba(220,120,20,1);
+	
+	
+}
+
+header.title {
+	
+	font-size:32px;
+	position: absolute;
+
+}
+
+
+
+section.port {
+	background-image: linear-gradient( white,black);
+	
+	margin:0;
+	padding:0;
+	
+	width:100vw;
+	height:auto;
+	
+	position:absolute;
+	top:10vh;
+	left:0;	
+	
+		display:flex;
+	flex-wrap: wrap;
+	flex-direction:column;
+	
+	
+	
+}
+
+section.port div.intro{
+	background-color: rgba(230,230,230,1);
+	
+	
+	
+	margin:0;
+	padding:0;
+	width:100vw;
+	height:90vh;
+	
+	position: relative;
+	top:0;
+	left:0vw;
+		display:flex;
+		flex-wrap: wrap;
+	flex-direction:column;
+	align-items: center;
+	justify-content:flex-end;
+
+	
+	
+}
+
+section.port div.intro p{
+	
+	overflow:hidden;
+	padding: 10px;
+	margin:10px 10px 10px 10px;
+	
+	font-size: 17px;
+	width:500px;
+	height:auto;
+	position: static;
+	text-align: center;
+	line-height: 1.5;
+	
+	
+font-family: 'Montserrat', sans-serif;
+	color: rgba(160,160,160,1);
+	
+	margin:50px;
+}
+
+section.port div.intro img.front{
+	position:relative;
+	width:500px;
+	height: 200px;
+	
+	padding: 0;
+	margin: 10px;
+	
+	filter: brightness(70%) ;
+
+	
+	
+	
+}
+
+section.port div.intro p a{
+	
+		text-decoration: none;
+	width:auto;
+	color: black;
+
+
+}
+
+section.port div.intro p a:hover{
+	
+	
+		padding: 2px 5px;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 10%;
+	text-decoration: none;
+	color: black;
+
+}
+
+section.port div.secs h1{
+	
+	z-index:1;
+	
+	font-family: 'Major Mono Display', monospace;
+	font-size: 20px;
+	background-color: rgba(220,120,20,1);
+	
+	position:absolute;
+	
+	width:auto;
+	margin:0 0px;
+	Padding: 20px 35px 20px 35px;
+}
+
+
+section.port div.secs div.sidebar{
+	margin:0;
+	padding:0;
+	position:relative;
+	width:10vw;
+	height:100vh;
+	
+	background-color: rgba(150,50,50,1);
+	
+}
+
+
+section.port div.secs{
+	background-color: rgba(230,230,230,0.5);
+	
+	
+	margin:0;
+	padding:0;
+	width:100vw;
+	height:100vh;
+	
+	position: relative;
+	top:0;
+	left:0;
+	
+
+		display:flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	align-items:flex-start;
+	justify-content:flex-start;
+	font-family: 'Cutive Mono', monospace;
+	
+}
+
+
+section.port div.secs.city_e{
+	
+	position:relative;
+	margin:0;
+	padding:0;
+		
+	
+	
+}
+
+
+section.port div.secs img.secs {
+	
+	position:relative;
+	
+	width: auto;
+	height: 100%;
+	
+	object-fit: cover;
+	filter:contrast(30%) grayscale(1);
+
+		transition: filter 2s;
+	
+	
+}
+
+
+section.port div.secs img.secs:hover {
+	
+	
+	filter:contrast(50%) grayscale(0);
+	
+
+		
+	
+	
+}
+
+
+
+section.port div.secs p {
+	transform: translate(-50%,-50%);
+	
+	position: absolute;
+	top: 60vh;
+	left: 20vw;
+	
+	width:200px;
+	height: auto ;
+	
+	color: rgba(240,240,240,1);
+	
+	text-align:justify;
+		opacity:1;
+		
+		transition: all 2s;
+	
+	
+}
+
+section.port div.secs.seaside p {
+	transform: translate(-50%,-50%);
+	
+	position: absolute;
+	top: 70vh;
+	left: 50vw;
+	
+	width:400px;
+	height: auto ;
+	
+	color: rgba(40,40,40,1);
+	
+	text-align:justify;
+		opacity:1;
+		
+		transition: all 2s;
+	
+	
+}
+
+section.port div.secs.tech_2 p {
+	transform: translate(-50%,-50%);
+	
+	position: absolute;
+	top: 60vh;
+	left: 20vw;
+	
+	width:200px;
+	height: auto ;
+	
+	color: rgba(40,40,40,1);
+	
+	text-align:justify;
+		opacity:1;
+		
+		transition: all 2s;
+	
+	
+}
+
+
+
+
+
+section.port div.secs img.secs.code {
+	
+	filter:  grayscale(0.9);
+
+		
+	
+	
+}
+section.port div.secs img.secs.code:hover {
+	
+	
+	filter:grayscale(0.5);
+	
+
+		
+	
+	
+}
+
+
+
+
+
+
+
+

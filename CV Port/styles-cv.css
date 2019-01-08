@@ -1,0 +1,451 @@
+
+
+@keyframes scroll {
+	
+	0% {  transform: translate(0,0);}
+	
+	
+	100% {  transform: translate(0,-90vh);}
+	
+	
+	
+}
+
+body {
+	overflow-x:hidden;
+}
+nav.list{
+	position:absolute;
+}
+
+nav.list ul {
+	position:absolute;
+}
+
+nav.list.second li:hover{
+	
+	cursor: pointer;
+	
+	background-color: rgba(220,120,20,1);
+	
+	
+}
+
+
+
+
+section.content_cv {
+	overflow:hidden;
+	width:100vw;
+	height:550vh;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:0;
+	left:0;
+	
+	background-color: rgba(255,255,255,1);
+	
+	font-family: 'Cutive Mono', monospace;
+	font-weight: 500;
+	
+		display:flex;
+		flex-wrap: wrap;
+	flex-direction:column;
+	
+}
+section.content_cv img.front{
+	position:relative;
+	width:500px;
+	height: 200px;
+	background-color:black;
+	padding: 0;
+	margin: 10px;
+	transform:translate(0,40px);
+
+	
+	
+}
+
+section.content_cv div.borders{
+	z-index:1;
+	position:absolute;
+	top:55vh;
+	left:50vw;
+	width:75vw;
+	height:80vh;
+	transform:translate(-50%,-50%);
+	
+	border: 2px solid rgba(255,150,50);
+	border-radius:0%;
+	
+}
+section.content_cv div.borders.full{
+	z-index:1;
+	position:absolute;
+	top:45vh;
+	left:45vw;
+	width:80vw;
+	height:80vh;
+	transform:translate(-50%,-50%);
+	
+	border: 2px solid rgba(255,150,50,0.8);
+	
+	
+}
+section.content_cv div.borders.full.it{
+
+background-image: url(it_skills.png);
+}
+
+
+section.content_cv div.about_me{
+	overflow:hidden;
+	
+	margin:0;
+	padding:0;
+	position:relative;
+
+	background-color:rgba(230,230,230, 1);
+	
+	
+
+		display:flex;
+	flex-wrap: wrap;
+	flex-direction:column;
+	align-items:center;
+	justify-content: center;
+	
+	width:100vw;
+	height:100vh;
+	
+	
+}
+
+section.content_cv div.about_me p{
+
+overflow:hidden;
+	padding: 10px;
+	margin:10px 10px 10px 10px;
+	
+	font-size: 17px;
+	width:500px;
+	height:auto;
+	position: static;
+	text-align: center;
+	line-height: 1.5;
+		transform:translate(0,40px);
+	
+font-family: 'Montserrat', sans-serif;
+	color: rgba(160,160,160,1);
+}
+
+
+section.content_cv div.about_me a{
+	text-decoration: none;
+	width:auto;
+	color: black;
+	
+}
+section.content_cv div.about_me a:hover{
+
+	padding: 2px 5px;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 10%;
+	text-decoration: none;
+	color: black;
+	
+}
+
+
+section.content_cv div.skills h1{
+margin:0;
+padding:5px 10px 10px 10px;
+	position:absolute;
+	top:0vh;
+	left:3vh;
+	width:auto;
+	font-size:35px;
+	font-weight:500;
+	
+	font-family: 'Major Mono Display', monospace;
+
+color: rgba(0,0,0,1);
+	
+		text-align: justify;
+	line-height: 1.5;
+}
+
+section.content_cv div.skills h1.indi{
+
+
+z-index: 0;
+
+}
+
+section.content_cv div.skills img.cv_img{
+	
+	width:400px;
+	height:400px;
+	margin:10px 10px 10px 10px;
+	padding:20px;
+	position:reletive;
+	object-fit:cover;
+	opacity: 0.7;
+	filter: grayscale(70%);
+	transform:translate(0,20px);
+}
+
+
+section.content_cv div.skills {
+	overflow:hidden;
+	width:90vw;
+	height:90vh;
+	
+	margin: 0 0 0 0;
+	padding:0 1px 0 0;
+	position:relative;
+
+	background-color: rgba(0,0,0,0.3);
+	
+	display:flex;
+		flex-wrap: wrap;
+	flex-direction:row;
+	align-items:center;
+	justify-content: center;
+	
+	
+	color: rgba(50,50,50,1);
+}
+
+
+
+section.content_cv div.skills ul{
+transform:translate(0,20px);
+	width:auto;
+	height:auto;
+	margin:10px;
+	padding:0;
+	position:reletive;
+	
+margin:10px 10px 10px 10px;
+
+
+	
+}
+
+
+
+section.content_cv div.skills ul li{
+	text-align:justify;
+	line-height:1.5;
+	width:450px;
+	height:auto;
+	
+	padding:0;
+	position:reletive;
+
+	
+}
+section.content_cv div.skills ul li.title{
+	list-style: none;
+	padding:0;
+	
+}
+
+
+
+
+
+
+	
+section.content_cv div.skills.personal_qualities{
+	
+	background-color:rgba(0,0,0,0.4);
+
+	
+	
+	
+}
+
+section.content_cv div.skills.personal_qualities ul{
+	
+
+	
+}
+
+section.content_cv div.skills.personal_qualities img.p_q{
+	
+	
+	
+	
+}
+
+
+
+
+
+
+section.content_cv div.skills.it_skills{
+	background-color:rgba(0,0,0,0.5);
+	
+	
+	
+}
+
+
+
+
+
+
+section.content_cv div.skills.education{
+	
+	top:auto;
+	background-color:rgba(0,0,0,0.6);
+	
+	
+}
+
+section.content_cv div.skills.education ul{
+
+	width:auto;
+	height:auto;
+	margin:10px;
+	padding:20px;
+	position:reletive;
+	overflow:hidden;
+	text-align:left;
+	margin:10px 10px 10px 10px;
+	color: rgba(150,150,150);
+
+	
+}
+section.content_cv div.skills.education ul li{
+
+
+	text-align:left;
+
+	
+}
+
+
+section.content_cv div.skills.achievements{
+	
+	background-color:rgba(0,0,0,0.7);
+	
+	
+
+	
+	
+	
+}
+
+
+
+section.content_cv div.skills.achievements div.square{
+	
+	width:600px;
+	height:400px;
+	padding:0 ;
+	
+	
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction:column;
+	justify-content: center;
+	
+	transform: translate(0,30px);
+	
+	background-color:rgba(255,255,255,0.01);
+	box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+	
+}
+
+section.content_cv div.skills.achievements div.box{
+	
+	margin:0;
+	padding:0;
+	width:300px;
+	height:200px;
+	
+
+	
+	
+	
+	color: rgba(180,180,180);
+	
+	
+
+
+}
+
+section.content_cv div.skills.achievements div.box h2{
+	position:relative;
+	text-decoration:underline;
+	
+	margin:20px 10px 10px 10px;
+	padding:0;
+	
+	display:flex;
+	justify-content:center;
+	
+	
+	
+	font-size: 18px;
+	
+	
+
+
+}
+
+section.content_cv div.skills.achievements div.box p{
+	
+	margin:15px;
+	padding:0;
+	
+	text-align:justify;
+	
+
+	
+	
+	
+	color: rgba(180,180,180);
+	
+	
+
+
+}
+
+section.content_cv div.skills.achievements svg.lines{
+	
+
+	
+	position: absolute;
+	
+	
+	
+	
+}
+
+
+section.content_cv div.skills.it_skills div.interactive {
+	
+	
+	
+	
+	z-index:2;
+	position:absolute;
+	top:45vh;
+	left:45vw;
+	width:80vw;
+	height:80vh;
+	transform:translate(-50%,-50%);
+	
+	
+	
+}
+
+
+
+
+
